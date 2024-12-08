@@ -1,5 +1,19 @@
 1. Why do you use "using strict" at the top of your JS files?
+Answer* Use "use strict" at the top of the JavaScript files help enforces stricter parsing and error handling in the code. It also helps 
+liminates Silent Errors, Prevents Accidental Globals,Disallows Duplicates, Ensures Secure JavaScript.
+
 2. What does line 3 mean?
+Answer* This line means you are creating a variable named count and initializing it to sero,
+
 3. What is happening on lines 5-8 and why?
+Answer* Line 5: This element is likely where the current count is displayed.
+Line 6: This element is the button that will be used to increase the count.
+Line 7: This element is the button that will be used to reset the count to zero.
+Line 8: This element is the button that will be used to decrease the count.
+
 4. If you implemented the functionality of the buttons,
    why do you think I wrote the JS code the way I did?
+Answer* I think you wrote the JS code that way because for readability, scalability and ease to test;
+Anyone reading the code can quickly understand what each part does, making it easier to debug and extend.
+If you want to add more buttons or functionality, you can easily add new functions or modify existing ones without disrupting the rest of the code.
+Each function can be tested individually, ensuring that all parts work correctly before integrating them together.
